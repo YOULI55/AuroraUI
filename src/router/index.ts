@@ -4,7 +4,7 @@ const general = [
   {
     name: '按钮 Button',
     path: '/component/button',
-    component: () => import('@/views/component/general/GBotton.vue')
+    component: () => import('@/views/component/general/ABotton.vue')
   }
 ]
 
