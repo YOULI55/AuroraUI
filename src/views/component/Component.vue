@@ -4,7 +4,16 @@ import { componentMenus } from '@/router/index'
 import { useRouter } from 'vue-router'
 const router = useRouter()
 
-const menus = ref([])
+interface Menu {
+  name: string
+  children: Array<{
+    name: string
+    selected: boolean
+    path: string
+  }>
+}
+
+const menus = ref<Menu[]>([])
 menus.value = componentMenus.map(item => {
   return {
     name: item.name,
