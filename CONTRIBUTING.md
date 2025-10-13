@@ -5,20 +5,24 @@
 ## 🚀 开始贡献
 
 ### 1. Fork 项目
+
 点击右上角的 Fork 按钮
 
 ### 2. 克隆到本地
+
 ```bash
 git clone https://github.com/your-username/AuroraUI.git
 cd AuroraUI
 ```
 
 ### 3. 安装依赖
+
 ```bash
 npm install
 ```
 
 ### 4. 创建分支
+
 ```bash
 git checkout -b feature/your-feature-name
 ```
@@ -36,6 +40,7 @@ git checkout -b feature/your-feature-name
 - `chore:` 构建工具或辅助工具的变动
 
 示例：
+
 ```bash
 git commit -m "feat: 添加新的按钮组件"
 git commit -m "fix: 修复表单验证问题"
@@ -44,16 +49,19 @@ git commit -m "fix: 修复表单验证问题"
 ## 🔧 开发流程
 
 1. **开发**
+
    ```bash
    npm run dev
    ```
 
 2. **代码检查**
+
    ```bash
    npm run lint
    ```
 
 3. **格式化代码**
+
    ```bash
    npm run format
    ```
@@ -74,6 +82,7 @@ git commit -m "fix: 修复表单验证问题"
 ## 🐛 报告问题
 
 请使用 GitHub Issues 报告问题，并提供：
+
 - 问题描述
 - 复现步骤
 - 期望行为

@@ -1,3 +1,3 @@
 <template>
-  <button>pig</button>
+  <button>pig1</button>
 </template>
