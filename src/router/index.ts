@@ -9,7 +9,7 @@ const general = [
   {
     name: '按钮1',
     path: '/component/button1',
-    component: () => import('@/views/component/general/button1.vue'),
+    component: () => import('@/views/component/general/Button1.vue'),
   },
 ]
 
